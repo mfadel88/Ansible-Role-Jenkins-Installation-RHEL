@@ -1,0 +1,10 @@
+
+---
+# handlers file for roles/jenkins
+
+- name: start Jenkins
+  ansible.builtin.systemd:
+    state: started
+    name: jenkins
+    enabled: yes
+    daemon_reload: yes

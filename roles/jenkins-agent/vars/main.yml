@@ -1,0 +1,7 @@
+
+---
+# vars file for roles/jenkins
+jenkins_repo_url: "https://pkg.jenkins.io/redhat-stable/jenkins.repo"
+java_pak: "java-11-openjdk"
+jenkins_pak: "jenkins"
+jenkins_repo_key: "https://pkg.jenkins.io/redhat-stable/jenkins.io.key"
